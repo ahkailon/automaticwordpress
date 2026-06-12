@@ -84,7 +84,7 @@ echo ""
 echo "[2/3] Backup Uploads"
 
 tar -czf "${BACKUP_DIR}/uploads.tar.gz" \
-    -C "${PROJECT_DIR}/wp-content" \
+    -C "${PROJECT_DIR}/wordpress/wp-content" \
     uploads
 
 if [ $? -eq 0 ]; then
