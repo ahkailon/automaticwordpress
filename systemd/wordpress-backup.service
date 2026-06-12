@@ -1,0 +1,11 @@
+[Unit]
+Description=WordPress Backup Service
+After=docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/sparck/projetos/WordPress_Projects/tools
+ExecStart=/home/sparck/projetos/WordPress_Projects/tools/backup-all.sh
+
+[Install]
+WantedBy=multi-user.target

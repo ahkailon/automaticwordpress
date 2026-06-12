@@ -1,0 +1,368 @@
+
+==================================
+Thu Jun  4 19:07:23 -03 2026
+
+==================================
+Thu Jun  4 19:13:33 -03 2026
+
+==================================
+Thu Jun  4 22:23:17 -03 2026
+
+=====================================
+ Backup WordPress
+=====================================
+
+mkdir: cannot create directory ‘/storage’: Permission denied
+Diretório:
+/storage/backups/biblioteca/2026-06-04_22-23
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 2: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 4: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 8: $'\r': command not found
+
+[1/3] Backup Banco
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 125: mysqldump: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 126: -u: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 127: -proot123: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 128: $'wordpress\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 129: /storage/backups/biblioteca/2026-06-04_22-23/database.sql: No such file or directory
+
+[2/3] Backup Uploads
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 147: /storage/backups/biblioteca/2026-06-04_22-23/uploads.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 148: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 149: uploads: command not found
+
+[3/3] Backup Projeto Completo
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 169: /storage/backups/biblioteca/2026-06-04_22-23/full-project.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 170: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 171: .: filename argument required
+.: usage: . filename [arguments]
+
+=====================================
+ Backup concluído
+=====================================
+
+Arquivos gerados:
+ls: cannot access '/storage/backups/biblioteca/2026-06-04_22-23': No such file or directory
+
+Local:
+/storage/backups/biblioteca/2026-06-04_22-23
+
+
+=====================================
+ Backup WordPress
+=====================================
+
+mkdir: cannot create directory ‘/storage’: Permission denied
+Diretório:
+/storage/backups/sparckmaster/2026-06-04_22-23
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 2: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 4: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 8: $'\r': command not found
+
+[1/3] Backup Banco
+
+The command 'docker' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 125: mysqldump: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 126: -u: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 127: -proot123: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 128: $'wordpress\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 129: /storage/backups/sparckmaster/2026-06-04_22-23/database.sql: No such file or directory
+
+[2/3] Backup Uploads
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 147: /storage/backups/sparckmaster/2026-06-04_22-23/uploads.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 148: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 149: uploads: command not found
+
+[3/3] Backup Projeto Completo
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 169: /storage/backups/sparckmaster/2026-06-04_22-23/full-project.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 170: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 171: .: filename argument required
+.: usage: . filename [arguments]
+
+=====================================
+ Backup concluído
+=====================================
+
+Arquivos gerados:
+ls: cannot access '/storage/backups/sparckmaster/2026-06-04_22-23': No such file or directory
+
+Local:
+/storage/backups/sparckmaster/2026-06-04_22-23
+
+
+==================================
+Thu Jun  4 22:26:44 -03 2026
+
+=====================================
+ Backup WordPress
+=====================================
+
+mkdir: cannot create directory ‘/storage’: Permission denied
+Diretório:
+/storage/backups/biblioteca/2026-06-04_22-26
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 2: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 4: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 8: $'\r': command not found
+
+[1/3] Backup Banco
+docker: 'docker exec' requires at least 2 arguments
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+See 'docker exec --help' for more information
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 125: mysqldump: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 126: -u: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 127: -proot123: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 128: $'wordpress\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 129: /storage/backups/biblioteca/2026-06-04_22-26/database.sql: No such file or directory
+
+[2/3] Backup Uploads
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 147: /storage/backups/biblioteca/2026-06-04_22-26/uploads.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 148: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 149: uploads: command not found
+
+[3/3] Backup Projeto Completo
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 169: /storage/backups/biblioteca/2026-06-04_22-26/full-project.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 170: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 171: .: filename argument required
+.: usage: . filename [arguments]
+
+=====================================
+ Backup concluído
+=====================================
+
+Arquivos gerados:
+ls: cannot access '/storage/backups/biblioteca/2026-06-04_22-26': No such file or directory
+
+Local:
+/storage/backups/biblioteca/2026-06-04_22-26
+
+
+=====================================
+ Backup WordPress
+=====================================
+
+mkdir: cannot create directory ‘/storage’: Permission denied
+Diretório:
+/storage/backups/sparckmaster/2026-06-04_22-27
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 2: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 4: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 8: $'\r': command not found
+
+[1/3] Backup Banco
+docker: 'docker exec' requires at least 2 arguments
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+See 'docker exec --help' for more information
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 125: mysqldump: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 126: -u: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 127: -proot123: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 128: $'wordpress\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 129: /storage/backups/sparckmaster/2026-06-04_22-27/database.sql: No such file or directory
+
+[2/3] Backup Uploads
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 147: /storage/backups/sparckmaster/2026-06-04_22-27/uploads.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 148: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 149: uploads: command not found
+
+[3/3] Backup Projeto Completo
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 169: /storage/backups/sparckmaster/2026-06-04_22-27/full-project.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 170: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 171: .: filename argument required
+.: usage: . filename [arguments]
+
+=====================================
+ Backup concluído
+=====================================
+
+Arquivos gerados:
+ls: cannot access '/storage/backups/sparckmaster/2026-06-04_22-27': No such file or directory
+
+Local:
+/storage/backups/sparckmaster/2026-06-04_22-27
+
+
+==================================
+Thu Jun  4 22:36:18 -03 2026
+
+=====================================
+ Backup WordPress
+=====================================
+
+mkdir: cannot create directory ‘/storage’: Permission denied
+Diretório:
+/storage/backups/biblioteca/2026-06-04_22-36
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 2: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 4: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/biblioteca/.env: line 8: $'\r': command not found
+
+[1/3] Backup Banco
+docker: 'docker exec' requires at least 2 arguments
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+See 'docker exec --help' for more information
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 125: mysqldump: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 126: -u: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 127: -proot123: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 128: $'wordpress\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 129: /storage/backups/biblioteca/2026-06-04_22-36/database.sql: No such file or directory
+
+[2/3] Backup Uploads
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 147: /storage/backups/biblioteca/2026-06-04_22-36/uploads.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 148: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 149: uploads: command not found
+
+[3/3] Backup Projeto Completo
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 169: /storage/backups/biblioteca/2026-06-04_22-36/full-project.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 170: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 171: .: filename argument required
+.: usage: . filename [arguments]
+
+=====================================
+ Backup concluído
+=====================================
+
+Arquivos gerados:
+ls: cannot access '/storage/backups/biblioteca/2026-06-04_22-36': No such file or directory
+
+Local:
+/storage/backups/biblioteca/2026-06-04_22-36
+
+
+=====================================
+ Backup WordPress
+=====================================
+
+mkdir: cannot create directory ‘/storage’: Permission denied
+Diretório:
+/storage/backups/sparckmaster/2026-06-04_22-36
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 2: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 4: $'\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/../projects/sparckmaster/.env: line 8: $'\r': command not found
+
+[1/3] Backup Banco
+docker: 'docker exec' requires at least 2 arguments
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+See 'docker exec --help' for more information
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 125: mysqldump: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 126: -u: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 127: -proot123: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 128: $'wordpress\r': command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 129: /storage/backups/sparckmaster/2026-06-04_22-36/database.sql: No such file or directory
+
+[2/3] Backup Uploads
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 147: /storage/backups/sparckmaster/2026-06-04_22-36/uploads.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 148: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 149: uploads: command not found
+
+[3/3] Backup Projeto Completo
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 169: /storage/backups/sparckmaster/2026-06-04_22-36/full-project.tar.gz: No such file or directory
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 170: -C: command not found
+/mnt/c/Dev/Web/Wordpress_Projects/tools/backup-project.sh: line 171: .: filename argument required
+.: usage: . filename [arguments]
+
+=====================================
+ Backup concluído
+=====================================
+
+Arquivos gerados:
+ls: cannot access '/storage/backups/sparckmaster/2026-06-04_22-36': No such file or directory
+
+Local:
+/storage/backups/sparckmaster/2026-06-04_22-36
+
+
+==================================
+Thu Jun  4 22:54:20 -03 2026
+
+=====================================
+ Backup WordPress
+=====================================
+
+Projeto: biblioteca
+Destino: /mnt/c/Dev/Web/Wordpress_Projects/storage/backups/biblioteca/2026-06-04_22-54
+
+[1/3] Backup Banco
+✓ Banco salvo
+
+[2/3] Backup Uploads
+✓ Uploads salvos
+
+[3/3] Backup Projeto Completo
+✓ Projeto salvo
+
+=====================================
+ Backup concluído
+=====================================
+
+total 16M
+-rwxrwxrwx 1 sparck sparck 118K Jun  4 22:54 database.sql
+-rwxrwxrwx 1 sparck sparck  16M Jun  4 22:54 full-project.tar.gz
+-rwxrwxrwx 1 sparck sparck  146 Jun  4 22:54 uploads.tar.gz
+
+=====================================
+ Backup WordPress
+=====================================
+
+Projeto: sparckmaster
+Destino: /mnt/c/Dev/Web/Wordpress_Projects/storage/backups/sparckmaster/2026-06-04_22-54
+
+[1/3] Backup Banco
+✓ Banco salvo
+
+[2/3] Backup Uploads
+✓ Uploads salvos
+
+[3/3] Backup Projeto Completo
+✓ Projeto salvo
+
+=====================================
+ Backup concluído
+=====================================
+
+total 16M
+-rwxrwxrwx 1 sparck sparck 114K Jun  4 22:54 database.sql
+-rwxrwxrwx 1 sparck sparck  16M Jun  4 22:54 full-project.tar.gz
+-rwxrwxrwx 1 sparck sparck  146 Jun  4 22:54 uploads.tar.gz

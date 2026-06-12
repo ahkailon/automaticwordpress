@@ -1,0 +1,12 @@
+**/data/
+**/uploads/
+**/upgrade/
+**/cache/
+
+.env
+
+node_modules/
+
+vendor/
+
+backups/

@@ -1,0 +1,54 @@
+services:
+
+  traefik:
+    image: traefik:latest
+    container_name: traefik
+    restart: always
+
+    command:
+      - --api.dashboard=true
+      - --api.insecure=true
+      - --providers.docker=true
+      - --providers.docker.exposedbydefault=false
+      - --entrypoints.web.address=:80
+      - --log.level=DEBUG
+
+    ports:
+      - "80:80"
+      - "8088:8080"
+
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+    networks:
+      - wordpress-network
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: unless-stopped
+
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.adminer.rule=Host(`adminer.local`)
+      - traefik.http.services.adminer.loadbalancer.server.port=8080
+
+    networks:
+      - wordpress-network
+
+  mailpit:
+    image: axllent/mailpit
+    container_name: mailpit
+    restart: unless-stopped
+
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.mailpit.rule=Host(`mail.local`)
+      - traefik.http.services.mailpit.loadbalancer.server.port=8025
+
+    networks:
+      - wordpress-network
+
+networks:
+  wordpress-network:
+    external: true

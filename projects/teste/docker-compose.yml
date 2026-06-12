@@ -1,0 +1,77 @@
+services:
+
+  mariadb:
+    image: mariadb:11
+
+    container_name: ${PROJECT_NAME}-db
+    hostname: ${PROJECT_NAME}-db
+
+    restart: unless-stopped
+
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+    networks:
+      - wordpress-network
+
+  redis:
+    image: redis:7-alpine
+
+    container_name: ${PROJECT_NAME}-redis
+    hostname: ${PROJECT_NAME}-redis
+
+    restart: unless-stopped
+
+    volumes:
+      - redis_data:/data
+
+    networks:
+      - wordpress-network
+
+  wordpress:
+    build:
+      context: .
+      dockerfile: docker/wordpress/Dockerfile
+
+    container_name: ${PROJECT_NAME}-wp
+
+    restart: unless-stopped
+
+    environment:
+      WORDPRESS_DB_HOST: ${PROJECT_NAME}-db:3306
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_REDIS_HOST', '${PROJECT_NAME}-redis');
+        define('WP_REDIS_PORT', 6379);
+        define('WP_REDIS_DATABASE', 0);
+
+    depends_on:
+      - mariadb
+
+    volumes:
+      - ./wordpress:/var/www/html
+
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.${PROJECT_NAME}.rule=Host(`${PROJECT_DOMAIN}`)
+      - traefik.http.services.${PROJECT_NAME}.loadbalancer.server.port=80
+
+    networks:
+      - wordpress-network
+
+networks:
+  wordpress-network:
+    external: true
+
+volumes:
+  mariadb_data:
+  redis_data:
