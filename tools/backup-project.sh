@@ -55,11 +55,19 @@ echo "Destino: $BACKUP_DIR"
 # --------------------------------------------------
 
 source "${PROJECT_DIR}/.env"
+# Corrige arquivos Windows
+sed -i 's/\r$//' "$PROJECT_DIR/.env"
 
+# Carrega variáveis
+set -a
+source "$PROJECT_DIR/.env"
+set +a
 # --------------------------------------------------
 # Backup Banco
 # --------------------------------------------------
-
+echo "DB_NAME=$DB_NAME"
+echo "DB_USER=$DB_USER"
+echo "MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD"
 echo ""
 echo "[1/3] Backup Banco"
 
